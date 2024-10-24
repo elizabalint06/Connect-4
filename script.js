@@ -65,7 +65,7 @@ function checkWin(row, column) {
         [1, -1]
     ];
     for (let i = 0; i < directions.length; ++i) {
-        const[directionRow, directionColumn] = directions[i];
+        const [directionRow, directionColumn] = directions[i];
         if (checkDirection(row, column, directionRow, directionColumn)) {
             return true;
         }
